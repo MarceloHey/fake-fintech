@@ -76,6 +76,12 @@ ul {
   gap: var(--gap);
 }
 
+.sales {
+  max-height: 70vh;
+  overflow: auto;
+  padding: var(-gap);
+}
+
 .sidebar li {
   display: flex;
   align-items: center;
